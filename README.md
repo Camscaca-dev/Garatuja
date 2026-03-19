@@ -8,23 +8,23 @@ linguagem de MARCAÇÃO justamente pq é usada pra MARCAR trechos de código imp
 
 # Java vs TypeScript vs JS
 
-          |     JAVA             |        JS            |          TS          |
-          |                      |                      |                      |
-var       | tipo nome = valor    | let nome = valor     |let nome: tipo = valor|
-          |                      |                      |                      |
-função    |                      |                      |                      |
-          |                      |                      |                      |
-atributo  |                      |                      |                      |
-          |                      |                      |                      |
-          |                      |                      |                      |
-metodo    |                      |                      |                      |
-          |                      |                      |                      |
-          |                      |                      |                      |
+PROJ2
+
+    |          |     JAVA             |        JS            |          TS          |
+    |          |                      |                      |                      |
+    |var       | tipo nome = valor    | let nome = valor     |let nome: tipo = valor|
+    |          |                      |                      |                      |
+    |função    |                      |                      |                      |
+    |          |                      |                      |                      |
+    |atributo  |                      |                      |                      |
+    |          |                      |                      |                      |
+    |          |                      |                      |                      |
+    |metodo    |                      |                      |                      |
+    |          |                      |                      |                      |
+    |          |                      |                      |                      |
 
 
-Sintaxes
-
-
+# Sintaxes
 JS
 
 
