@@ -10,19 +10,25 @@ HTML, sigla para HyperText Markup Language (Linguagem de Marcação de Hipertext
 # Java vs TypeScript vs JS
 
 PROJ2
+classe; agrupar itens
+objeto;
 
-    |          |     JAVA             |        JS            |          TS          |
-    |          |                      |                      |                      |
-    |var       | tipo nome = valor    | let nome = valor     |let nome: tipo = valor|
-    |          |                      |                      |                      |
-    |função    |metodos em bloco code |bloco de cod reutiliz-|igual o js mas com tip|
-    |          |dentro de uma class   |avel pra prjt ou criar|agem forte            |
-    |atributo  |                      |                      |                      |
-    |          |                      |                      |                      |
-    |          |                      |                      |                      |
-    |metodo    |                      |                      |                      |
-    |          |                      |                      |                      |
-    |          |                      |                      |                      |
+
+
+    |          |     JAVA             |        JS             |          TS          |
+    |          |                      |                       |                      |
+    |var       | tipo nome = valor    | let nome = valor      |let nome: tipo = valor|
+    |          |                      |                       |                      |
+    |função    |metodos em bloco code |bloco de cod reutiliz- |igual o js mas com tip|
+    |          |dentro de uma class   |avel pra prjt ou criar |agem forte            |
+    |          |                      |                       |                      |
+    |          |                      |                       |                      |
+    |atributo  |                      |                       |                      |
+    |          |                      |                       |                      |
+    |          |                      |                       |                      |
+    |metodo    |regras dentro das     |métodos são proprieda  | Métodos em TS são    |
+    |          |classes               |des do objeto q contêm |semelhantes a JS mas  |
+    |          |                      |uma definição de função| tipado opcionalmente |
 
 
 # Sintaxes
@@ -61,6 +67,3 @@ function somar(a: number, b: number): number {
     return a + b;
 }
 console.log(somar(5, 10)); // Saída: 15
-
-
-TS
