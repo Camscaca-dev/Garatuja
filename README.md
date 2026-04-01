@@ -69,6 +69,19 @@ function somar(a: number, b: number): number {
 console.log(somar(5, 10)); // Saída: 15
 
 
+------
+------
+------
+------
+------
+------
+------
+------
+------
+------
+------
+------
+
 #  Programação Orientada a Objetos (POO)
 
 ##  O que é POO?
@@ -80,18 +93,6 @@ POO (Programação Orientada a Objetos) é um jeito de programar baseado em **ob
 * **Dados** (atributos)
 * **Ações** (métodos)
 
-------
-------
-------
-------
-------
-------
-------
-------
-------
-------
-------
-------
 
 ##  Conceitos principais
 
