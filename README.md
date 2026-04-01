@@ -18,18 +18,15 @@ objeto;
 |          |     JAVA             |        JS             |          TS          |
 |----------|----------------------|-----------------------|----------------------|
 |var       | tipo nome = valor    | let nome = valor      |let nome: tipo = valor|
-|----------|----------------------|-----------------------|----------------------|
+|          |                      |                       |                      |
 |função    |metodos em bloco code |bloco de cod reutiliz- |igual o js mas com tip|
 |          |dentro de uma class   |avel pra prjt ou criar |agem forte            |
-|----------|----------------------|-----------------------|----------------------|
 |          |                      |                       |                      |
 |atributo  |                      |                       |                      |
-|----------|----------------------|-----------------------|----------------------|
 |          |                      |                       |                      |
 |metodo    |regras dentro das     |métodos são proprieda  | Métodos em TS são    |
 |          |classes               |des do objeto q contêm |semelhantes a JS mas  |
 |          |                      |uma definição de função| tipado opcionalmente |
-|----------|----------------------|-----------------------|----------------------|
 
 
 # Sintaxes
