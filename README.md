@@ -82,6 +82,11 @@ console.log(somar(5, 10)); // Saída: 15
 
 #  Resumão de Programação Orientada a Objetos (POO)
 
+Questions
+1 Explicar Herança mais ludicamente.
+2 Oq é instancia?
+3 oq acontece se o costrutor n for usado?
+
 ##  O que é POO?
 
 POO (Programação Orientada a Objetos) é um jeito de programar baseado em **objetos**, que representam coisas do mundo real.
