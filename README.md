@@ -69,6 +69,250 @@ function somar(a: number, b: number): number {
 console.log(somar(5, 10)); // Saída: 15
 
 
+#  Programação Orientada a Objetos (POO)
+
+##  O que é POO?
+
+POO (Programação Orientada a Objetos) é um jeito de programar baseado em **objetos**, que representam coisas do mundo real.
+
+ Cada objeto tem:
+
+* **Dados** (atributos)
+* **Ações** (métodos)
+
+------
+------
+------
+------
+------
+------
+------
+------
+------
+------
+------
+------
+
+##  Conceitos principais
+
+###  Classe
+
+É o **molde** para criar objetos.
+
+```ts
+class Pessoa {
+  nome: string;
+  idade: number;
+}
+```
+
+---
+
+###  Objeto
+
+É uma **instância da classe** (algo criado a partir dela).
+
+```ts
+const p1 = new Pessoa();
+p1.nome = "Ana";
+p1.idade = 25;
+```
+
+---
+
+###  Atributo
+
+São as **variáveis** dentro da classe.
+
+```ts
+nome: string;
+idade: number;
+```
+
+---
+
+###  Método
+
+São as **funções** da classe.
+
+```ts
+falar() {
+  console.log("Olá!");
+}
+```
+
+---
+
+##  Palavra-chave `this`
+
+`this` representa **o objeto atual**.
+
+```ts
+class Pessoa {
+  nome: string;
+
+  falar() {
+    console.log(this.nome);
+  }
+}
+```
+
+ Não usamos o nome da variável (`p1`, `p2`...), porque a classe não sabe qual será esse nome.
+
+---
+
+##  Construtor
+
+Serve para **inicializar o objeto automaticamente**.
+
+```ts
+class Pessoa {
+  nome: string;
+  idade: number;
+
+  constructor(nome: string, idade: number) {
+    this.nome = nome;
+    this.idade = idade;
+  }
+}
+
+const p1 = new Pessoa("Ana", 25);
+```
+
+---
+
+##  Exemplo prático (Quadrado)
+
+```ts
+class Quadrado {
+  lado: number;
+
+  constructor(lado: number) {
+    this.lado = lado;
+  }
+
+  area(): number {
+    return this.lado * this.lado;
+  }
+
+  perimetro(): number {
+    return 4 * this.lado;
+  }
+}
+```
+
+Uso:
+
+```ts
+const q = new Quadrado(5);
+
+console.log(q.area()); // 25
+console.log(q.perimetro()); // 20
+```
+
+---
+
+##  Encapsulamento
+
+Protege os dados da classe.
+
+```ts
+class Quadrado {
+  private lado: number;
+
+  constructor(lado: number) {
+    this.lado = lado;
+  }
+
+  getLado(): number {
+    return this.lado;
+  }
+
+  setLado(lado: number): void {
+    this.lado = lado;
+  }
+}
+```
+
+---
+
+##  Herança
+
+Permite reutilizar código.
+
+```ts
+class Quadrilatero {
+  constructor(public lado1: number, public lado2: number) {}
+
+  area() {
+    return this.lado1 * this.lado2;
+  }
+}
+
+class Quadrado extends Quadrilatero {
+  constructor(lado: number) {
+    super(lado, lado);
+  }
+}
+```
+
+---
+
+##  Polimorfismo (ideia básica)
+
+Mesmo método, comportamentos diferentes.
+
+```ts
+class Animal {
+  fazerSom() {
+    console.log("Som genérico");
+  }
+}
+
+class Cachorro extends Animal {
+  fazerSom() {
+    console.log("Latido");
+  }
+}
+```
+
+---
+
+##  POO vs Programação Estruturada
+
+| Estruturada     | POO             |
+| --------------- | --------------- |
+| Variáveis       | Atributos       |
+| Funções         | Métodos         |
+| Foco em funções | Foco em objetos |
+
+---
+
+##  Resumo
+
+* Classe → molde
+* Objeto → instância
+* Atributo → dado
+* Método → ação
+* `this` → objeto atual
+* Construtor → inicializa
+* Encapsulamento → protege dados
+* Herança → reutiliza código
+* Polimorfismo → comportamentos diferentes
+
+
+------
+------
+------
+------
+------
+------
+------
+------
+------
+------
+------
+
 
 
 
