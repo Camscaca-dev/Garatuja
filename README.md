@@ -82,7 +82,7 @@ console.log(somar(5, 10)); // Saída: 15
 ------
 ------
 
-#  Programação Orientada a Objetos (POO)
+#  Resumão de Programação Orientada a Objetos (POO)
 
 ##  O que é POO?
 
