@@ -804,3 +804,29 @@ Mas isso leva a outra situação adversa, pois existem caso que se faz necessár
 >>>     }
 >>> }
 >>> ```
+
+
+
+
+Entregas do 1º Trimestre
+Garatujas com os seguintes tópicos:
+Revisão Webdesign
+HTML (para o eu do futuro)
+CSS (para o eu do futuro)
+JS (para o eu do futuro)
+Projeto de site pessoal (Perfil)
+Versão professor
+Versão pessoal
+Diferenças entre Java, JS (JavaScript) e TS (TypeScript)
+POO
+Classe
+Objeto
+Atributo
+Método
+Getters e Setters
+Construtor
+Herança
+Encapsulamento
+Polimorfismo
+Leitura e elaboração de perguntas:
+Programação 1 - Programação Orientada a Objetos (POO)
