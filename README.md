@@ -69,7 +69,7 @@ console.log(somar(5, 10)); // Saída: 15
 
 ------
 ------
-#PERGUNTAS SOBRE POO
+# PERGUNTAS SOBRE POO
 
 1) O que significa POO?
 
