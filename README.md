@@ -69,14 +69,51 @@ console.log(somar(5, 10)); // Saída: 15
 
 ------
 ------
-------
-------
-------
-------
-------
-------
-------
-------
+#PERGUNTAS SOBRE POO
+
+1) O que significa POO?
+
+2) Qual é a principal ideia da Programação Orientada a Objetos?
+
+3) O que é uma classe?
+
+4) O que é um objeto?
+
+5) Qual a diferença entre classe e objeto?
+
+6) O que são atributos?
+
+7) O que são métodos?
+
+8) O que é encapsulamento?
+
+9) O que é herança?
+
+10) O que é polimorfismo?
+
+# GABARITO
+
+1) Programação Orientada a Objetos
+
+2) Organizar o código em objetos que representam coisas do mundo real
+
+3) É um “molde” usado para criar objetos
+
+4) É uma instância de uma classe (um objeto criado a partir da classe)
+
+5) Classe é o modelo, objeto é o que foi criado a partir dela
+
+6) São as características de um objeto (ex: cor, nome, idade)
+
+7) São as ações que um objeto pode fazer (ex: andar, falar)
+
+8) É proteger os dados do objeto, permitindo acesso controlado
+
+9) É quando uma classe herda características de outra
+
+10) É quando um mesmo método pode ter comportamentos diferentes
+
+    
 ------
 ------
 
